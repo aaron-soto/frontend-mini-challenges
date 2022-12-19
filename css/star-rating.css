@@ -1,0 +1,20 @@
+.rating-wrapper {
+	background-color: #fff;
+	border: 2px solid #e6e6e6;
+	max-width: 600px;
+	margin: 5rem auto 0;
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	border-radius: 5px;
+}
+.rating-wrapper .rating {
+	font-size: 28px;
+	color: #434343;
+}
+.fa-star {
+	cursor: pointer;
+}
+.fa-solid {
+	color: #ffd166;
+}
