@@ -29,6 +29,15 @@ nav a .fa-github {
 	font-size: 26px;
 }
 
+.about {
+	padding: 2rem 3rem;
+	width: 75%;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 1.4em;
+	color: #383838;
+}
+
 .challenges {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -53,7 +62,8 @@ nav a .fa-github {
 	text-decoration: none;
 }
 .challenges a:hover {
-	outline: 2px solid #8138ee67;
+	outline: 2px solid #4895ef;
+	/* outline: 2px solid #8138ee67; */
 	outline-offset: 3px;
 }
 
@@ -64,9 +74,6 @@ nav a .fa-github {
 	color: #909090;
 }
 
-.challenges a.new:hover {
-	outline: 2px solid #8138ee;
-}
 .challenges a.in-progress:hover,
 .challenges a.idea:hover {
 	outline: none;
@@ -104,6 +111,15 @@ nav a .fa-github {
 	box-shadow: 0 calc(-1 * var(--f)) 0 inset #3f7823;
 }
 .ribbon.idea {
-	background: #118ab2;
-	box-shadow: 0 calc(-1 * var(--f)) 0 inset #064f67;
+	background: #4895ef;
+	box-shadow: 0 calc(-1 * var(--f)) 0 inset #214a79;
+}
+
+.commit-date {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #a7a7a7;
+	margin-top: 6rem;
 }
